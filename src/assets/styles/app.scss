@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,600,700&display=swap');
+
+@import './base/base';
+@import './base/forms';
+@import './base/react-toastify';
+@import './base/dialog';
+@import './base/variables';
+
+@import './modules/modules';
+
+@import "~bootstrap/scss/bootstrap";

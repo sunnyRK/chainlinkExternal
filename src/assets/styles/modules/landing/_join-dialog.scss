@@ -1,0 +1,18 @@
+.join-dialog {
+  min-width: 600px;
+  .join-dialog-content {
+    .join-dialog-footer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      .join-submit-button {
+        border: #41CD7D 1px solid;
+        color: #41CD7D;
+        border-radius: 15px;
+        width: 120px;
+        height: 45px;
+        margin-top: 15px;
+      }
+    }
+  }
+}

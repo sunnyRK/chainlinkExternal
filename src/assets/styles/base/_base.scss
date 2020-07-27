@@ -1,0 +1,44 @@
+body {
+  background-color: #f9fbfd;
+  font-family: 'IBM Plex Sans';
+}
+
+.card {
+  border-color: #edf2f9;
+  box-shadow: 0 0.75rem 1.5rem rgba(18,38,63,.03);
+  // box-shadow: 0 2.8px 2.2px rgba(0,0,0,.034), 0 6.7px 5.3px rgba(0,0,0,.048), 0 12.5px 10px rgba(0,0,0,.06), 0 22.3px 17.9px rgba(0,0,0,.072), 0 41.8px 33.4px rgba(0,0,0,.086), 0 100px 80px rgba(0,0,0,.12);
+  border: 1px solid #edf2f9;
+  background-color: #fff;
+  border-radius: .5rem;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  h3 {
+    color: #2d507d !important;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+}
+
+.button {
+  button {
+    width: 180px;
+    height: 45px;
+    background-color: #2d507d;
+  }
+}
+
+.token-pairs-overlap {
+  // position: relative;
+  // .overlap-image {
+  //   position: absolute;
+  //   left: 20px;
+  // }
+  img {
+    &:hover {
+      z-index: 1;
+    }
+  }
+  .overlap-image {
+    margin-left: -10px;
+  }
+}

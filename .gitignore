@@ -1,0 +1,4 @@
+node_modules
+.next
+contracts/test.sol
+contracts/test2.sol

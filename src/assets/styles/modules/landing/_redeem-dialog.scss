@@ -1,0 +1,28 @@
+.redeem-dialog {
+  min-width: 600px;
+  .redeem-dialog-content {
+    .redeem-dialog-footer {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+        margin-top: 15px;
+        .redeem-cancel-button {
+        border: #41CD7D 1px solid;
+        color: #41CD7D;
+        border-radius: 15px;
+        width: 120px;
+        height: 45px;
+        // margin-top: 15px;
+      }
+      .redeem-confirm-button {
+        border: red 1px solid;
+        color: red;
+        border-radius: 15px;
+        width: 120px;
+        height: 45px;
+        margin-left: 15px;
+        // margin-top: 15px;
+      }
+    }
+  }
+}

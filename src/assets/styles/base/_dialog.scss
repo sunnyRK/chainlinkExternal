@@ -1,0 +1,36 @@
+.custom-dialog {
+  width: 100%;
+  max-width: 100%;
+  transition: width 2s, height 4s;
+  overflow: auto;
+  .dialog-title {
+    border-bottom: 1px solid #bdbdbd;
+    h2 {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+  .dialog-content {
+    padding: 40px;
+  }
+  .custom-dialog-paper {
+    max-height: 70%;
+  }
+  .dialog-footer {
+    padding: 14px;
+  }
+}
+
+.custom-content-style {
+  > div {
+    // width: 100% !important;
+    border-radius: 0px !important;
+  }
+  > div:last-child {
+    // max-width: 600px;
+    max-width: unset;
+    position: relative;
+    // top: 15% !important;
+  }
+}

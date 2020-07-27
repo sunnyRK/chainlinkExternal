@@ -1,0 +1,45 @@
+$app-color: #202442;
+// $app-color: #1a69a4;
+$header-height: 65px;
+$footer-height: 180px;
+
+.main-template {
+  height: 100%;
+  overflow: auto;
+  .main-header {
+    width: 100%;
+    height: $header-height;
+    background-color: $app-color;
+    position: sticky;
+    top: 0;
+    z-index: 9000;
+    padding: 20px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .app-name {
+      font-size: 1.4rem;
+      font-weight: 500;
+      color: white;
+      display: flex;
+      align-items: center;
+      letter-spacing: 1.2px;
+    }
+    .metamask-address {
+      color: white;
+    }
+  }
+  .main-content {
+    min-height: calc(100% - (#{$header-height}));
+    background-color: #25294A;
+    display: flex;
+  }
+  .main-footer {
+    height: $footer-height;
+    .app-footer {
+      padding: 4em !important;
+      // margin-top: 30px !important;
+      background-color: $app-color;
+    }
+  }
+}
