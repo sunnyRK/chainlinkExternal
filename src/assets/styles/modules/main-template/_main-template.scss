@@ -33,6 +33,12 @@ $footer-height: 180px;
     min-height: calc(100% - (#{$header-height}));
     background-color: #25294A;
     display: flex;
+    .block-ui-landing-page {
+      min-height: calc(100% - (65px));
+      background-color: #25294A;
+      display: flex;
+      width: 100%;
+    }
   }
   .main-footer {
     height: $footer-height;

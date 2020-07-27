@@ -2,11 +2,24 @@
 
 ## Alarm-POD developed during Unitize-SFBW Hackathon By Gitcoin Community.
 
-Alarm-POD is no-loss and crypto saving platform to win interest using trustless blockchain technology.
+Alarm-POD is no-loss and crypto saving platform to win interest using trustless blockchain technology. Using chainlink alarm clock, chainlink VRF function and AAVE protocol
 
-Platform arrange the pod for crypto users. And where users will deposit DAI or any other stablecoins tokens on POD to win the interest. Platform will accure the interest on deposited tokens by participants using AAVE interest bearing tokens for particular time-period. 
+When Contract owner will create POD, it trigger the chainlink alarm clock to wait until to finish time-period.
 
-The platform will create pod for particular time-period. Platform uses `Chainlink Alarm Clock External Adapters` to recognize that time-period is finished or not. Once the time-period complete, callback function of chainlink alarm clock calls the `Chainlink VRF` to `requestRandomness` to choose the trustless winner among the participants. 
+During this time period it accures interest on deposited crypto token which is deposited by participants(staker).
+And during this time period any one can see live interest generate on dashboard.
+
+Once Time-period complete the chainlink-alarm-clock
+recognize it. and then using callback function of chainlink-alarm-clock, it triggers the chainlink VRF function to get the winner among participant using randomness functionality of VRF.
+
+once Chainlink VRF decide the winner, admin needs to disburse all the original tokens to all users and "original token + interest" to winner
+
+Let's see demo below....
+
+# Video Demo
+
+https://youtu.be/cn7UgN33Ys8  
+[![Chainlink+AAVE](chainlinkaave.png)](https://youtu.be/cn7UgN33Ys8 "Alarm-POD")
 
 ## How to run
 
@@ -31,4 +44,3 @@ Chainink Decentralized Oracles
 AAVE - To Earn interes  
 Next.Js  
 Semantic UI React
-
