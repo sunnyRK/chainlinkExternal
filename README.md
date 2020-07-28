@@ -69,7 +69,7 @@ Solidity
 Web3.js  
 Chainink Decentralized Oracles  
     - Chainlink Alarm Clock - To wait for particular time-period to finish POD  
-    - Chainlink VRF - To choose winner
-AAVE - To Earn interes  
+    - Chainlink VRF - To choose winner  
+AAVE - To Earn interest  
 Next.Js  
 Semantic UI React
