@@ -38,7 +38,7 @@ https://youtu.be/cn7UgN33Ys8
 ![Chainlink-alarm-clock](Screenshots/Screenshot2.png)
 
 #### 3. One of the participant is joining the pod with DAI token 
-![participate](Screenshots/Screenshots/Screenshot3.png)
+![participate](Screenshots/Screenshot3.png)
 
 #### 4. You can see in pod,
     - totalcontract balance generated from all of the paricipant
@@ -58,8 +58,8 @@ https://youtu.be/cn7UgN33Ys8
 
 #### 8. You can check winner total prize in right side top - "YOUR TOTAL WINNING" 
 ![totalwinning](Screenshots/Screenshot8.png)
-## Current Future Task in mind
 
+## Current Future Task in mind
 1. Use ENS(Ethreum name service) to give more flexibilty to user.
 
 ## Tech stack
