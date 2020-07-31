@@ -18,9 +18,8 @@ Let's see demo below....
 
 # Video Demo
 
-https://youtu.be/cn7UgN33Ys8  
-[![Chainlink+AAVE](chainlinkaave.png)](https://youtu.be/cn7UgN33Ys8 "Alarm-POD")
-
+https://www.youtube.com/watch?v=IurN0H7ef-8  
+[![Chainlink+AAVE](chainlinkaave.png)](https://www.youtube.com/watch?v=IurN0H7ef-8 "Alarm-POD")
 ## How to run
 
 1. Clone repo `https://github.com/sunnyRK/chainlinkExternal.git`
