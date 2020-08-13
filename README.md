@@ -1,7 +1,5 @@
 # Alarm-POD (Sponser Chainlink)
 
-## Alarm-POD developed during Unitize-SFBW Hackathon By Gitcoin Community.
-
 Alarm-POD is no-loss and crypto saving platform to win interest using trustless blockchain technology. Using chainlink alarm clock, chainlink VRF function and AAVE protocol
 
 When Contract owner will create POD, it trigger the chainlink alarm clock to wait until to finish time-period.
