@@ -1,6 +1,6 @@
-# Alarm-POD (Sponser Chainlink)
+# Alarm-POD
 
-## Alarm-POD developed during Unitize-SFBW Hackathon By Gitcoin Community.
+# Phase-1
 
 Alarm-POD is no-loss and crypto saving platform to win interest using trustless blockchain technology. Using chainlink alarm clock, chainlink VRF function and AAVE protocol
 
@@ -14,16 +14,16 @@ recognize it. and then using callback function of chainlink-alarm-clock, it trig
 
 once Chainlink VRF decide the winner, admin needs to disburse all the original tokens to all users and "original token + interest" to winner
 
-Let's see demo below....
+Let's see demo below for Phase-1....
 
 # Video Demo
 
 https://www.youtube.com/watch?v=IurN0H7ef-8  
-[![Chainlink+AAVE](chainlinkaave.png)](https://www.youtube.com/watch?v=IurN0H7ef-8 "Alarm-POD")
+[![AAVE+Chainlink](aavechainlink.png.png)](https://www.youtube.com/watch?v=IurN0H7ef-8 "Alarm-POD")
 ## How to run
 
-1. Clone repo `https://github.com/sunnyRK/chainlinkExternal.git`
-2. `cd chainlinkExternal` 
+1. Clone repo `https://github.com/sunnyRK/aavepod-encodechallege.git`
+2. `cd aavepod-encodechallege` 
 2. `npm install`
 3. `node server.js`
 4. Currently deployed on Kovan Network
@@ -40,35 +40,48 @@ https://www.youtube.com/watch?v=IurN0H7ef-8
 ![participate](Screenshots/Screenshot3.png)
 
 #### 4. You can see in pod,
+    - Estimated prize as a live interest is accuring from AAVE protocol
     - totalcontract balance generated from all of the paricipant
     - Your Investment from total pod balalnce
     - and Joining amount required to join in pod
-    - And Even live interest is accuring from AAVE protocol
 ![Poddetails](Screenshots/Screenshot4.png)
 
 #### 5. After Chainlink alarm clock recognized that timer is finish, then chainlink VRF declared winner
 ![winnerDeclare](Screenshots/Screenshot5.png)
 
-#### 6. New pod is created and that old pod comes right side with winning and prize details. And COntract owner can disburse amount to all participant. 
+#### 6. New pod is created and that old pod comes right side with winning and prize details. And Contract owner can disburse amount to all participant. 
 ![old-pod](Screenshots/Screenshot6.png)
 
 #### 7. Disburse amount by contract owner 
 ![disburse](Screenshots/Screenshot7.png)
 
-#### 8. You can check winner total prize in right side top - "YOUR TOTAL WINNING" 
+#### 8. You can check winner total prize in right side top - as a "YOUR TOTAL WINNING" 
 ![totalwinning](Screenshots/Screenshot8.png)
 
 ## Current Future Task in mind
 1. Use ENS(Ethreum name service) to give more flexibilty to user.
+
+# Phase-2 (AaveBalancerAggregator)
+
+In Phase-2, We want to make innovative podding system where staker or participant can earn double interest. Where participant will deposit crypto tokens in pod and internally platform will deposit into `AAVE protocol` to accure interest.  
+
+AAVE protocol will give `Aave intrest bearing tokens(like for DAI to aDAI)`. So, platform that aave interest bearing tokens will deposit into `Balancer protocol` to earn trading fees onto deposited tokens.
+
+In Summarize, It is `AaveBalancerAggregator`. We are making platform where participant can earn `double interest` using `AAVE interest bearing` tokens and `Balancer Trading fees`. 
+
+This feature is `not fully implemented` with UI. We have implemented demo(not fully) smart contract for aave and balancer for this usecase.  
+
+`note: Phase-2 is not fully implemented.`
+
 
 ## Tech stack
 
 Ethereum   
 Solidity   
 Web3.js  
+AAVE - To Earn interest  
 Chainink Decentralized Oracles  
     - Chainlink Alarm Clock - To wait for particular time-period to finish POD  
     - Chainlink VRF - To choose winner  
-AAVE - To Earn interest  
 Next.Js  
 Semantic UI React
