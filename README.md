@@ -1,4 +1,4 @@
-# Alarm-POD (Sponser Chainlink)
+# Alarm-POD 
 
 Alarm-POD is no-loss and crypto saving platform to win interest using trustless blockchain technology. Using chainlink alarm clock, chainlink VRF function and AAVE protocol
 
