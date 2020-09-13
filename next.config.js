@@ -11,7 +11,6 @@ module.exports = withCSS(withSass({
                }
            }
        });
-
        return config;
    }
 }));

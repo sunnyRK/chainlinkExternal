@@ -5,7 +5,7 @@ export function getPodFactoryContract(web3) {
     const jsonAbi = JSON.parse(abi);
     const contract = new web3.eth.Contract(jsonAbi, address);    
     return contract;
-}
+} 
 
 // Aave pod bet instance
 export function getAaavePodContract(web3, address) {
