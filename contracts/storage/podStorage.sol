@@ -26,7 +26,7 @@ contract podStorage {
     mapping(uint256 => uint256) public totalValueOnBet; // totak stake on bet id
     mapping(uint256 => address[]) public stakersOfBet; // stakers array address for bet id  
     mapping(uint256 => betTokens) public betIdTokensMapping;
-    mapping(uint256 => mapping(address => bool)) isRedeem; // redeem money before bet ends
+    mapping(uint256 => mapping(address => bool)) isRedeem; // redeem money before bet ends 
     
     uint256 public runningPodBetId;
     // If true then cant be winner and after completion 

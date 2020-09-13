@@ -13,6 +13,7 @@ export default class myDocument extends Document {
           <Main />
           <NextScript />
         </body>
+        
         <style global jsx>{`
           body {
             font-family: 'IBM Plex Sans';

@@ -79,5 +79,5 @@ contract ChainlinkVRF is VRFConsumerBase {
         require(LINK.balanceOf(address(this)) > fee, "Not enough LINK - fill contract with faucet");
         bytes32 _requestId = requestRandomness(keyHash, fee, userProvidedSeed);
         return _requestId;
-    }
+    }  
 }

@@ -26,7 +26,7 @@ contract ChainlinkAlarmClock is ChainlinkClient, Ownable {
     
     // In future if we change in chainlink vrf functionality then we can change address using this function
     function setChainLinkVRFAddress(address vrfAddress) public {
-        vrf = IVrf(vrfAddress);
+        vrf = IVrf(vrfAddress); 
     }
     
     // This is the function which will execute when new pod is created by contract owner for waiting for predefined time-period
